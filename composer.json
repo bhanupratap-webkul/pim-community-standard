@@ -1,5 +1,5 @@
 {
-  "name": "akeneo/pim-community-standard",
+  "name": "bhanupratap-webkul/pim-community-standard",
   "description": "The \"Akeneo Community Standard Edition\" distribution",
   "license": "OSL-3.0",
   "type": "project",
@@ -17,7 +17,7 @@
       "Pim\\Upgrade\\": "upgrades/"
     },
     "exclude-from-classmap": [
-      "vendor/akeneo/pim-community-dev/src/Kernel.php"
+      "vendor/bhanupratap-webkul/pim-community-dev/src/Kernel.php"
     ]
   },
   "require": {
@@ -29,13 +29,13 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "vendor/akeneo/pim-community-dev/std-build/install-required-files.sh"
+      "vendor/bhanupratap-webkul/pim-community-dev/std-build/install-required-files.sh"
     ],
     "post-install-cmd": [
-      "vendor/akeneo/pim-community-dev/std-build/install-required-files.sh"
+      "vendor/bhanupratap-webkul/pim-community-dev/std-build/install-required-files.sh"
     ],
     "post-create-project-cmd": [
-      "vendor/akeneo/pim-community-dev/std-build/install-required-files.sh"
+      "vendor/bhanupratap-webkul/pim-community-dev/std-build/install-required-files.sh"
     ]
   },
   "minimum-stability": "stable",

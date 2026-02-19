@@ -1,5 +1,5 @@
 {
-    "name": "akeneo/pim-community-standard",
+    "name": "bhanupratap-webkul/pim-community-standard",
     "description": "The \"Akeneo Community Standard Edition\" distribution",
     "license": "OSL-3.0",
     "type": "project",
@@ -21,7 +21,7 @@
         ]
     },
     "require": {
-        "akeneo/pim-community-dev": "^7.0.0"
+        "bhanupratap-webkul/pim-community-dev": "^7.0.0"
     },
     "require-dev": {
         "symfony/debug-bundle": "^5.4.0",
